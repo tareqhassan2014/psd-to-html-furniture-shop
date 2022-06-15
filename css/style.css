@@ -1,4 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --text-primary-color: #3a3a3a;
+    --text-secondary-color: #898989;
+    --text-previous-price-color: #b0b0b0;
+    --primary-color: #e89f71;
+    --secondary-color: #ffc371;
+}
+
+/* utility class */
+
+.text-primary-color {
+    color: var(--text-primary-color);
+}
+
+.section-heading {
+    /* Heading / H2 */
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    /* identical to box height, or 48px */
+    text-align: center;
+    color: var(--text-primary-color);
+}
+
+.my-cart-image {
+    max-width: 285px;
+    height: 301px;
+}
+
 .profile-image {
     width: 40px;
     height: 40px;
+}
+
+/* product section styling */
+
+.product-cart-heading {
+    /* Heading / H5 */
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+
+    color: var(--text-primary-color);
+}
+
+.product-cart-secondary-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-secondary-color);
+}
+
+.previous-price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration-line: line-through;
+    color: var(--text-previous-price-color);
+}
+
+.show-more-btn {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0px;
+    width: 245px;
+    height: 48px;
+    font-weight: 600;
+    background-color: transparent;
 }
