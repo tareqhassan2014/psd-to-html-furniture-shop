@@ -72,6 +72,13 @@
     outline: 0px;
 }
 
+.carousel-caption {
+    width: 294px;
+    height: 148px;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(31px);
+}
+
 /* product section styling */
 
 .product-cart-heading {
@@ -106,6 +113,12 @@
     height: 48px;
     font-weight: 600;
     background-color: transparent;
+}
+
+/* Tips & Trikes section styling */
+
+.tips-tricks .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 /* Image Glary section */
