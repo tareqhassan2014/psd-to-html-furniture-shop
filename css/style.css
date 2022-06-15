@@ -108,6 +108,24 @@
     background-color: transparent;
 }
 
+/* Image Glary section */
+
+.image-glary-section p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #616161;
+}
+
+.image-glary-section img {
+    width: 100%;
+}
+.image-glary-section .image-container {
+    margin: 5px;
+    flex-grow: 1;
+}
+
 /* Footer styling starts here */
 
 .footer-item-heading h3 {
