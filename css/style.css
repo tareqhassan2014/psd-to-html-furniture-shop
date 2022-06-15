@@ -38,6 +38,40 @@
     height: 40px;
 }
 
+/* Top section styling */
+.top-section {
+    background-image: url('../resources/images/background-1.png'),
+        url('../resources/images/background-2.png');
+    background-size: 60vw, 40vw;
+    background-position: left right, left right;
+    background-repeat: no-repeat, no-repeat;
+}
+
+/* Navigation section styling */
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.nav-search-form {
+    width: 473px;
+    height: 45px;
+}
+
+.nav-search-form span {
+    background-color: white;
+    border-right: none;
+    border-radius: 0px;
+}
+
+.nav-search-form input {
+    border-left: 0px;
+    border-radius: 0px;
+    outline: 0px;
+}
+
 /* product section styling */
 
 .product-cart-heading {
