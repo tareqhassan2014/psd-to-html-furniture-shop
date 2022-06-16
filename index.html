@@ -21,6 +21,11 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+        <!-- swiper style -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="./css/style.css" />
@@ -537,64 +542,128 @@
         <!-- Tips and tricks section start -->
         <section class="container tips-tricks mt-5">
             <h2 class="section-heading">Tips & Tricks</h2>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                <div
-                    class="col d-flex justify-content-center align-items-center"
-                >
-                    <div class="card m-3">
-                        <img
-                            src="./resources/images/tips_1.png"
-                            class="card-img-top"
-                            alt="..."
-                        />
-                        <div class="card-body">
-                            <p class="card-text product-cart-heading">
-                                How to create a living room to love
-                            </p>
-                            <p class="card-text product-cart-secondary-text">
-                                20 jan 2020
-                            </p>
+
+            <div class="testimonials-carousel-wrap">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card m-3">
+                                <img
+                                    src="./resources/images/tips_1.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <p class="card-text product-cart-heading">
+                                        How to create a living room to love
+                                    </p>
+                                    <p
+                                        class="card-text product-cart-secondary-text"
+                                    >
+                                        20 jan 2020
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card m-3">
+                                <img
+                                    src="./resources/images/tips_2.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <p class="card-text product-cart-heading">
+                                        Solution for clean look working space
+                                    </p>
+                                    <p
+                                        class="card-text product-cart-secondary-text"
+                                    >
+                                        10 jan 2020
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card m-3">
+                                <img
+                                    src="./resources/images/tips_3.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <p class="card-text product-cart-heading">
+                                        Make your cooking activity more fun with
+                                        good setup
+                                    </p>
+                                    <p
+                                        class="card-text product-cart-secondary-text"
+                                    >
+                                        20 jan 2020
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card m-3">
+                                <img
+                                    src="./resources/images/tips_1.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <p class="card-text product-cart-heading">
+                                        How to create a living room to love
+                                    </p>
+                                    <p
+                                        class="card-text product-cart-secondary-text"
+                                    >
+                                        20 jan 2020
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card m-3">
+                                <img
+                                    src="./resources/images/tips_2.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <p class="card-text product-cart-heading">
+                                        Solution for clean look working space
+                                    </p>
+                                    <p
+                                        class="card-text product-cart-secondary-text"
+                                    >
+                                        10 jan 2020
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card m-3">
+                                <img
+                                    src="./resources/images/tips_3.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <p class="card-text product-cart-heading">
+                                        Make your cooking activity more fun with
+                                        good setup
+                                    </p>
+                                    <p
+                                        class="card-text product-cart-secondary-text"
+                                    >
+                                        20 jan 2020
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div
-                    class="col d-flex justify-content-center align-items-center"
-                >
-                    <div class="card m-3">
-                        <img
-                            src="./resources/images/tips_2.png"
-                            class="card-img-top"
-                            alt="..."
-                        />
-                        <div class="card-body">
-                            <p class="card-text product-cart-heading">
-                                Solution for clean look working space
-                            </p>
-                            <p class="card-text product-cart-secondary-text">
-                                10 jan 2020
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col d-flex justify-content-center align-items-center"
-                >
-                    <div class="card m-3">
-                        <img
-                            src="./resources/images/tips_3.png"
-                            class="card-img-top"
-                            alt="..."
-                        />
-                        <div class="card-body">
-                            <p class="card-text product-cart-heading">
-                                Make your cooking activity more fun with good
-                                setup
-                            </p>
-                            <p class="card-text product-cart-secondary-text">
-                                20 jan 2020
-                            </p>
-                        </div>
-                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -778,6 +847,8 @@
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
             crossorigin="anonymous"
         ></script>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
         <!-- Custom js -->
         <script src="./js/script.js"></script>
